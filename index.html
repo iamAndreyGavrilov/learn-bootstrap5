@@ -113,25 +113,34 @@
     </div> -->
     <div class="container">
       <form>
-        <label for="email" class="form-label">Email</label>
-        <!-- <input
+        <!-- <label for="email" class="form-label">Email</label>
+        <input
           type="email"
           id="email"
           value="email"
           readonly
           class="form-control"
         /> -->
+
         <!-- <select class="form-select form-select-lg">
           <option>one</option>
           <option>two</option>
         </select> -->
-        <div class="form-check form-switch form-check-inline">
+
+        <!-- <div class="form-check form-switch form-check-inline">
           <input type="checkbox" id="ok" class="form-check-input" />
           <label for="ok" class="form-check-label">ok</label>
         </div>
         <div class="form-check form-switch form-check-inline">
           <input type="checkbox" id="no" class="form-check-input" />
           <label for="no" class="form-check-label">no</label>
+        </div> -->
+
+        <label for="text" class="form-label">Amount</label>
+        <div class="input-group input-group-lg">
+          <div class="input-group-text">$</div>
+          <input type="number" id="text" class="form-control" />
+          <button class="btn btn-primary">+</button>
         </div>
 
         <button>Submit</button>
